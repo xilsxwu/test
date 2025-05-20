@@ -1,5 +1,7 @@
 # 兒童西班牙文學習應用
 
+![所有頁面預覽](images/all-pages.png)
+
 這是一個專為兒童設計的西班牙文學習應用原型，使用 HTML 和 Tailwind CSS 構建。
 
 ## 功能特色
