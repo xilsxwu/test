@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首頁 - 兒童西班牙文學習</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="bg-white">
+    <main class="p-4">
+        <!-- 歡迎區域 -->
+        <div class="flex items-center justify-between mb-6">
+            <div>
+                <h1 class="text-2xl font-bold text-gray-800">¡Hola, 小明!</h1>
+                <p class="text-gray-500">歡迎使用西班牙文學習</p>
+            </div>
+            <div class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center">
+                <i class="fas fa-bell text-gray-400"></i>
+            </div>
+        </div>
+
+        <!-- 學習進度卡片 -->
+        <div class="card mb-6">
+            <p class="text-sm text-gray-500 mb-1">你的學習進度</p>
+            <div class="flex items-center justify-between">
+                <h2 class="text-3xl font-bold">70<span class="text-lg">%</span></h2>
+                <button class="btn-outline py-2 px-4 rounded-full text-sm">查看詳情</button>
+            </div>
+            <div class="progress-bar mt-3">
+                <div class="progress-bar-fill" style="width: 70%"></div>
+            </div>
+            <div class="flex justify-between text-xs text-gray-500 mt-1">
+                <span>完成課程: 7/10</span>
+                <span>剩餘時間: 30分鐘</span>
+            </div>
+        </div>
+
+        <!-- 開始學習按鈕 -->
+        <button class="btn mb-6">
+            <span>繼續學習</span>
+        </button>
+
+        <!-- 每日任務 -->
+        <div class="mb-6">
+            <div class="flex justify-between items-center mb-3">
+                <h2 class="text-lg font-bold">今日任務</h2>
+                <a href="#" class="text-blue-500 text-sm">查看全部</a>
+            </div>
+            
+            <div class="card-container">
+                <div class="green-card">
+                    <div class="flex justify-between items-start mb-4">
+                        <div class="w-10 h-10 rounded-full bg-black bg-opacity-10 flex items-center justify-center">
+                            <i class="fas fa-book text-black"></i>
+                        </div>
+                        <span class="badge">5/5</span>
+                    </div>
+                    <h3 class="text-base font-medium">學習單詞</h3>
+                    <p class="text-sm opacity-80">學習5個新單詞</p>
+                </div>
+                
+                <div class="card">
+                    <div class="flex justify-between items-start mb-4">
+                        <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center">
+                            <i class="fas fa-microphone text-blue-500"></i>
+                        </div>
+                        <span class="badge bg-gray-100">0/1</span>
+                    </div>
+                    <h3 class="text-base font-medium">發音練習</h3>
+                    <p class="text-sm text-gray-500">完成每日發音</p>
+                </div>
+                
+                <div class="card">
+                    <div class="flex justify-between items-start mb-4">
+                        <div class="w-10 h-10 rounded-full bg-purple-100 flex items-center justify-center">
+                            <i class="fas fa-gamepad text-purple-500"></i>
+                        </div>
+                        <span class="badge bg-gray-100">0/1</span>
+                    </div>
+                    <h3 class="text-base font-medium">玩遊戲</h3>
+                    <p class="text-sm text-gray-500">完成一個學習遊戲</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 繼續學習 -->
+        <div class="mb-6">
+            <div class="flex justify-between items-center mb-3">
+                <h2 class="text-lg font-bold">繼續學習</h2>
+                <a href="#" class="text-blue-500 text-sm">查看全部</a>
+            </div>
+            
+            <div class="list-item">
+                <div class="list-item-icon bg-yellow-100">
+                    <i class="fas fa-paw text-yellow-500"></i>
+                </div>
+                <div class="flex-1">
+                    <div class="flex justify-between">
+                        <h3 class="font-medium">動物詞彙</h3>
+                        <span class="text-gray-500 text-sm">60%</span>
+                    </div>
+                    <div class="progress-bar mt-2">
+                        <div class="progress-bar-fill" style="width: 60%"></div>
+                    </div>
+                    <div class="text-xs text-gray-500 mt-1">還有15分鐘完成</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 推薦學習 -->
+        <div>
+            <h2 class="text-lg font-bold mb-3">為你推薦</h2>
+            <div class="grid grid-cols-2 gap-3">
+                <div class="card p-3">
+                    <div class="rounded-lg bg-gray-100 h-24 w-full mb-2 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1528825871115-3581a5387919?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fGZydWl0fGVufDB8fDB8fHww" class="w-full h-full object-cover" alt="水果詞彙">
+                    </div>
+                    <h3 class="font-medium text-sm">水果詞彙</h3>
+                    <div class="flex items-center text-xs text-gray-500 mt-1">
+                        <i class="fas fa-star text-yellow-400 mr-1"></i>
+                        <span>初級</span>
+                    </div>
+                </div>
+                <div class="card p-3">
+                    <div class="rounded-lg bg-gray-100 h-24 w-full mb-2 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1519687319039-6f8ef525e7d5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" class="w-full h-full object-cover" alt="問候語">
+                    </div>
+                    <h3 class="font-medium text-sm">問候語</h3>
+                    <div class="flex items-center text-xs text-gray-500 mt-1">
+                        <i class="fas fa-star text-yellow-400 mr-1"></i>
+                        <span>初級</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html> 

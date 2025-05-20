@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>兒童西班牙文學習 - 頁面預覽</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .preview-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            padding: 30px;
+        }
+        .phone-preview {
+            transition: transform 0.3s;
+        }
+        .phone-preview:hover {
+            transform: scale(1.02);
+        }
+        .page-title {
+            text-align: center;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 min-h-screen">
+    <header class="bg-blue-600 text-white p-4 shadow-lg">
+        <h1 class="text-2xl font-bold text-center">兒童西班牙文學習 App - 頁面預覽</h1>
+        <p class="text-center mt-2">iPhone 16 (393×852) 所有頁面並排預覽</p>
+    </header>
+
+    <div class="preview-container">
+        <!-- 首頁預覽 -->
+        <div class="phone-preview">
+            <div class="iphone-frame bg-black rounded-[55px] overflow-hidden shadow-2xl w-[393px] h-[852px] relative flex flex-col">
+                <!-- 應用頂部間距 -->
+                <div class="pt-4 bg-white"></div>
+                
+                <!-- 應用內容區域 -->
+                <div class="app-content bg-white flex-1">
+                    <iframe class="w-full h-full" src="pages/home.html"></iframe>
+                </div>
+                
+                <!-- 底部導航欄 -->
+                <div class="bottom-nav">
+                    <button class="nav-btn active">
+                        <i class="fas fa-home"></i>
+                        <span>首頁</span>
+                    </button>
+                    <button class="nav-btn">
+                        <i class="fas fa-book"></i>
+                        <span>學習</span>
+                    </button>
+                    <button class="nav-btn">
+                        <i class="fas fa-gamepad"></i>
+                        <span>遊戲</span>
+                    </button>
+                    <button class="nav-btn">
+                        <i class="fas fa-user"></i>
+                        <span>我的</span>
+                    </button>
+                </div>
+            </div>
+            <div class="page-title">首頁 (Home)</div>
+        </div>
+
+        <!-- 學習頁面預覽 -->
+        <div class="phone-preview">
+            <div class="iphone-frame bg-black rounded-[55px] overflow-hidden shadow-2xl w-[393px] h-[852px] relative flex flex-col">
+                <!-- 應用頂部間距 -->
+                <div class="pt-4 bg-white"></div>
+                
+                <!-- 應用內容區域 -->
+                <div class="app-content bg-white flex-1">
+                    <iframe class="w-full h-full" src="pages/learn.html"></iframe>
+                </div>
+                
+                <!-- 底部導航欄 -->
+                <div class="bottom-nav">
+                    <button class="nav-btn">
+                        <i class="fas fa-home"></i>
+                        <span>首頁</span>
+                    </button>
+                    <button class="nav-btn active">
+                        <i class="fas fa-book"></i>
+                        <span>學習</span>
+                    </button>
+                    <button class="nav-btn">
+                        <i class="fas fa-gamepad"></i>
+                        <span>遊戲</span>
+                    </button>
+                    <button class="nav-btn">
+                        <i class="fas fa-user"></i>
+                        <span>我的</span>
+                    </button>
+                </div>
+            </div>
+            <div class="page-title">學習 (Learn)</div>
+        </div>
+
+        <!-- 遊戲頁面預覽 -->
+        <div class="phone-preview">
+            <div class="iphone-frame bg-black rounded-[55px] overflow-hidden shadow-2xl w-[393px] h-[852px] relative flex flex-col">
+                <!-- 應用頂部間距 -->
+                <div class="pt-4 bg-white"></div>
+                
+                <!-- 應用內容區域 -->
+                <div class="app-content bg-white flex-1">
+                    <iframe class="w-full h-full" src="pages/games.html"></iframe>
+                </div>
+                
+                <!-- 底部導航欄 -->
+                <div class="bottom-nav">
+                    <button class="nav-btn">
+                        <i class="fas fa-home"></i>
+                        <span>首頁</span>
+                    </button>
+                    <button class="nav-btn">
+                        <i class="fas fa-book"></i>
+                        <span>學習</span>
+                    </button>
+                    <button class="nav-btn active">
+                        <i class="fas fa-gamepad"></i>
+                        <span>遊戲</span>
+                    </button>
+                    <button class="nav-btn">
+                        <i class="fas fa-user"></i>
+                        <span>我的</span>
+                    </button>
+                </div>
+            </div>
+            <div class="page-title">遊戲 (Games)</div>
+        </div>
+
+        <!-- 個人中心頁面預覽 -->
+        <div class="phone-preview">
+            <div class="iphone-frame bg-black rounded-[55px] overflow-hidden shadow-2xl w-[393px] h-[852px] relative flex flex-col">
+                <!-- 應用頂部間距 -->
+                <div class="pt-4 bg-white"></div>
+                
+                <!-- 應用內容區域 -->
+                <div class="app-content bg-white flex-1">
+                    <iframe class="w-full h-full" src="pages/me.html"></iframe>
+                </div>
+                
+                <!-- 底部導航欄 -->
+                <div class="bottom-nav">
+                    <button class="nav-btn">
+                        <i class="fas fa-home"></i>
+                        <span>首頁</span>
+                    </button>
+                    <button class="nav-btn">
+                        <i class="fas fa-book"></i>
+                        <span>學習</span>
+                    </button>
+                    <button class="nav-btn">
+                        <i class="fas fa-gamepad"></i>
+                        <span>遊戲</span>
+                    </button>
+                    <button class="nav-btn active">
+                        <i class="fas fa-user"></i>
+                        <span>我的</span>
+                    </button>
+                </div>
+            </div>
+            <div class="page-title">我的 (Profile)</div>
+        </div>
+
+        <!-- 詞彙學習頁面預覽 -->
+        <div class="phone-preview">
+            <div class="iphone-frame bg-black rounded-[55px] overflow-hidden shadow-2xl w-[393px] h-[852px] relative flex flex-col">
+                <!-- 應用頂部間距 -->
+                <div class="pt-4 bg-white"></div>
+                
+                <!-- 應用內容區域 -->
+                <div class="app-content bg-white flex-1">
+                    <iframe class="w-full h-full" src="pages/vocabulary.html"></iframe>
+                </div>
+                
+                <!-- 底部導航欄 -->
+                <div class="bottom-nav">
+                    <button class="nav-btn">
+                        <i class="fas fa-home"></i>
+                        <span>首頁</span>
+                    </button>
+                    <button class="nav-btn active">
+                        <i class="fas fa-book"></i>
+                        <span>學習</span>
+                    </button>
+                    <button class="nav-btn">
+                        <i class="fas fa-gamepad"></i>
+                        <span>遊戲</span>
+                    </button>
+                    <button class="nav-btn">
+                        <i class="fas fa-user"></i>
+                        <span>我的</span>
+                    </button>
+                </div>
+            </div>
+            <div class="page-title">詞彙學習 (Vocabulary)</div>
+        </div>
+    </div>
+
+    <footer class="bg-gray-200 p-4 text-center text-gray-600 mt-10">
+        <p>兒童西班牙文學習應用 - 設計預覽頁面</p>
+    </footer>
+</body>
+</html> 
