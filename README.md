@@ -1,8 +1,8 @@
-# 兒童西班牙文學習應用
+# 兒童西班牙文學習原型
 
 ![所有頁面預覽](images/all-pages.png)
 
-這是一個專為兒童設計的西班牙文學習應用原型，使用 HTML 和 Tailwind CSS 構建。
+這是一個專為兒童設計的西班牙文學習原型，使用 HTML 和 Tailwind CSS 構建。
 目的在於測試 Cursor 的能力。
 
 👉 [點我查看互動原型網站（GitHub Pages）](https://xilsxwu.github.io/test)
